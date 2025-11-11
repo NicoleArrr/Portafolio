@@ -6,7 +6,6 @@
 body {
     background-color: black;
     overflow: hidden;
-    color: ;
 }
 
 nav ul {
@@ -22,4 +21,17 @@ nav ul {
     height: 10vh;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-outline-{
+    border: black 0.1rem solid;
+    width: 3.5vw;
+}
+
+.btn-outline-:hover{
+    background-color: black;
+    color: white;
+}
