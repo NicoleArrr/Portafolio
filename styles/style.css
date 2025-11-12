@@ -45,3 +45,18 @@ a {
     display: flex;
     height: 100vh;
 }
+
+.phrase {
+    background-color: white;
+    color: black;
+    width: 100vw;
+    height: 15rem;
+    /*gap: 2rem;*/
+}
+
+.phrase-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h6 {font-size: 1.3em;}
