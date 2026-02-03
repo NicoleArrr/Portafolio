@@ -1,4 +1,3 @@
-<video width="100%" autoplay muted loop playsinline>
-  <source src="./media/presentación portafolio de negocios estetico blanco .mp4" type="video/mp4">
-  Tu navegador no soporta video HTML5.
-</video>
+<h1 align="center"> Welcome to my website Project Portfolio 👋! </h1>
+
+<img src="./media/presentacion-portafolio-web.gif" alt="">
