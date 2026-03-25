@@ -32,11 +32,10 @@ body {
     color: white;
 }
 
-#image-container{
-    border-bottom-right-radius: 4em;
-}
-
-#imageIntro{
+#imageIntro {
+    background-image: url('/media/plano-completo.png');
+    background-position: center;
+    min-height: 100vh;
     border-top-right-radius: 4em;
     border-bottom-right-radius: 4em;
 }
