@@ -10,26 +10,27 @@
   <link rel="stylesheet" href="../styles/style.css">
 </head>
 
-<body>
-  <div class=" " style="height: 100vh;">
-    <div class="card mb-3 rounded-5" style="max-width: 100%; height: 100%;">
-      <div class="row g-0">
-        <div class="col-md-5">
-          <img src="" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h1 class="card-title">En la historia de mi vida</h1>
-            <p class="card-text">Una página en blanco se despliega hoy para escribir un nuevo capítulo lleno de
-              experiencias</p>
-            <button type="button" class="btn btn-outline-light" id="startButton">Start !</button>
-          </div>
+<body class="m-0">
+  <div class="container-fluid vh-100">
+    <div class="row h-100" id="container-1">
+
+      <!-- TEXTO -->
+      <div class="col-md-6 d-flex align-items-center" id="text-container">
+        <div>
+          <h1>En la historia de mi vida</h1>
+          <p>
+            Una página en blanco se despliega hoy para escribir un nuevo capítulo lleno de experiencias
+          </p>
+          <button class="btn btn-outline-light" id="startButton">Start !</button>
         </div>
       </div>
+
+      <!-- IMAGEN -->
+      <div class="col-md-6 p-0">
+        <img src="/media/plano-completo.png" class="w-100 h-100 object-fit-cover" id="imageIntro">
+      </div>
+
     </div>
-  </div>
-  <div class="image">
-    <img src="/media/plano-completo.png" alt="" srcset="">
   </div>
 </body>
 <script src="../scripts/script.js"></script>
