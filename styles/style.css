@@ -33,7 +33,7 @@ body {
 }
 
 #imageIntro {
-    background-image: url('/media/plano-completo.png');
+    background-image: url('../media/plano-completo.png');
     background-position: center;
     min-height: 100vh;
     border-top-right-radius: 4em;
