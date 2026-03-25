@@ -26,12 +26,13 @@ a {
     color: #fff;
 }
 
-.btn-outline-{
+.btn-outline-light{
     border: black 0.1rem solid;
-    width: 3.5vw;
+    width: 5vw;
+    color: black;
 }
 
-.btn-outline-:hover{
+.btn-outline-light:hover{
     background-color: black;
     color: white;
 }
@@ -63,4 +64,12 @@ h6 {font-size: 1.3em;}
 
 section {
     color: white;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 100vh;
+    width: 100vw;
 }
